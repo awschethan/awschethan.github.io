@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <style>
+        .nav {
+            width: 250px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h3>Navigation</h3>
+        <ul>
+            <li><a href="/">Home (README)</a></li>
+            <li>AI Topics
+                <ul>
+                    <li><a href="/ai-fundamentals">AI Fundamentals</a></li>
+                    <li><a href="/ai-levels">AI Levels</a></li>
+                    <li><a href="/data-types">Data Types</a></li>
+                    <li><a href="/machine-learning">Machine Learning</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        {{ content }}
+    </div>
+</body>
+</html>
