@@ -1,3 +1,3 @@
-# awschethan.github.io
+# Getting Started with this course
 
 Hello 
